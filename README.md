@@ -1,13 +1,14 @@
 # Lab5Web - Praktikum 5: JavaScript Dasar dan Manipulasi HTML
 
 
-| **Mata Kuliah** | Pemrograman Web |
-| **Pertemuan** | 6 |
-| **Nama** | Naifah Alya Kamilah |
-| **NIM** | 312510193 |
-| **Kelas** | I251B |
-| **Dosen** | Agung Nugroho |
-| **Universitas** | Universitas Pelita Bangsa |
+ **Mata Kuliah**  Pemrograman Web
+ 
+ **Nama**  Naifah Alya Kamilah 
+ 
+ **NIM**  312510193 
+ 
+ **Kelas**  I251B 
+
 
 ## Deskripsi
 
@@ -80,7 +81,7 @@ console.log("Hello World");
 
 **Perbedaan output:** output pada halaman dapat dilihat oleh semua pengguna, sedangkan output pada Console hanya terlihat saat panel developer dibuka dan umumnya dipakai untuk debugging.
 
-![Latihan 1](latihan1.png)
+![Latihan 1](screenshots/latihan1.png)
 
 ---
 
@@ -115,7 +116,7 @@ if (namaPengguna && namaPengguna.trim() !== "") {
 | Menekan Cancel | `prompt` mengembalikan `null`, muncul alert "Nama belum diisi." |
 | Membiarkan kosong lalu OK | `prompt` mengembalikan string kosong, muncul alert "Nama belum diisi." |
 
-![Latihan 2](latihan2.png)
+![Latihan 2](screenshots/latihan2.png)
 
 ---
 
@@ -154,7 +155,7 @@ operasiDasar(9, 4);
 
 **Temuan tambahan:** pada `operasiDasar(10, 0)`, pembagian menampilkan "Tidak dapat dibagi nol", tetapi modulus menghasilkan `NaN` karena `10 % 0` tidak terdefinisi dan belum dijaga oleh kondisi apa pun. Perbaikannya diterapkan pada Eksperimen 1.
 
-![Latihan 3](latihan3.png)
+![Latihan 3](screenshots/latihan3.png)
 
 ---
 
@@ -196,7 +197,7 @@ if (inputNilai === null || inputNilai.trim() === "" ||
 | (kosong) | Input nilai tidak valid |
 | Cancel | Input nilai tidak valid |
 
-![Latihan 4](latihan4.png)
+![Latihan 4](screenshots/latihan4.png)
 
 ---
 
@@ -233,7 +234,7 @@ switch (inputPilihan) {
 | `7` | Pilihan tidak tersedia |
 
 
-![Latihan 5](latihan5.png)
+![Latihan 5](screenshots/latihan5.png)
 
 ---
 
@@ -282,7 +283,7 @@ function cekBilangan() {
 | `2` | Bilangan genap |
 | `9` | Bilangan ganjil |
 | `3.5` | Masukkan bilangan bulat yang valid. |
-![Latihan 6](latihan6.png)
+![Latihan 6](screenshots/latihan6.png)
 
 ---
 
@@ -313,7 +314,7 @@ function ubahWarnaLatar(warna) {
 
 **Hasil pengamatan:** klik tombol Latar Hijau membuat latar halaman hijau muda, Latar Kuning membuatnya kuning muda, dan Latar Putih mengembalikannya ke putih.
 
-![Latihan 7](latihan7.png)
+![Latihan 7](screenshots/latihan7.png)
 
 ---
 
@@ -366,7 +367,7 @@ function hitungTotal() {
 
 Saat centang dilepas, total turun otomatis tanpa perlu menekan tombol apa pun.
 
-![Latihan 8](latihan8.png)
+![Latihan 8](screenshots/latihan8.png)
 
 ---
 
@@ -484,7 +485,7 @@ document.getElementById("formNilai").addEventListener("submit", prosesNilai);
 
 Perhitungan skenario 1: (85 × 0,30) + (78 × 0,30) + (88 × 0,40) = 25,5 + 23,4 + 35,2 = 84,10.
 
-![Mini project](mini-project.png)
+![Mini project](screenshots/mini-project.png)
 
 ---
 
@@ -560,7 +561,7 @@ Setiap klik membalik nilai `display` antara `none` (tersembunyi) dan `block` (ta
 | 5 | Menu 5 pilihan | Total Rp15.000 jika semua dicentang |
 | 6 | Tampil/sembunyi | Elemen hilang dan muncul bergantian setiap klik |
 
-![Eksperimen mandiri](eksperimen.png)
+![Eksperimen mandiri](screenshots/eksperimen.png)
 
 ---
 
@@ -618,7 +619,7 @@ document.getElementById("formValidasi").addEventListener("submit", validasiForm)
 | (kosong) | `50` | Nama tidak boleh kosong |
 | `Rani` | `85` | Data valid: Rani dengan nilai 85. |
 
-![Validasi form](validasi-form.png)
+![Validasi form](screenshots/validasi-form.png)
 
 ---
 
